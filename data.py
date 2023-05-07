@@ -4,13 +4,13 @@ import re
 												
 
 def number() :
-    df = pd.read_csv('/home/abdo/scripts/zumiez/emiratesbd-linkssss.csv')
+    df = pd.read_csv('/home/zumiez/emiratesbd-linkssss.csv')
     return (df['n'].values.tolist())
 
 
 
 def links() :
-    df = pd.read_csv('/home/abdo/scripts/zumiez/emiratesbd-linkssss.csv')
+    df = pd.read_csv('/home/zumiez/emiratesbd-linkssss.csv')
     return (df['url'].values.tolist())
 #for link in links():
     
